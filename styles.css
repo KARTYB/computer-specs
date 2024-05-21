@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Blueish tint background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.specs {
+    border-left: 2px solid #ccc;
+    padding-left: 20px;
+}
+
+.spec {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #666;
+}
+
+p {
+    margin-top: 5px;
+    color: #333;
+}
